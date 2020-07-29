@@ -197,6 +197,7 @@ player_hand = []  # empty list the cards will be stored in
 ##DEALS PLAYER AND DEALER CARDS WHEN YOU RUN PROGRAM##
 deal_player()
 dealer_hand.append(deal_card(dealer_card_frame))
+dealer_score_label.set(score_hand(dealer_hand)) #this will display dealer score on initial program run
 deal_player()
 
 
